@@ -7,13 +7,13 @@ unexpected-function-equality
 [![Dependency Status](https://david-dm.org/unexpectedjs/unexpected-function-equality.svg)](https://david-dm.org/unexpectedjs/unexpected-function-equality)
 
 Plugin for Unexpected 10+ that overrides the `<function> to equal <function>`
-with an implementation that disregards whitespace. This is accomplished
-by parsing and pretty-printing the functions, then doing a string comparison.
-
+assertion with an implementation that disregards whitespace. This is
+accomplished by parsing and pretty-printing the functions, then doing a string
+comparison.
 
 Example:
 
-```
+```js
 var expect = require('unexpected').clone()
     .use(require('unexpected-function-equality'));
 
