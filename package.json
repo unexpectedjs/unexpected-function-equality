@@ -1,0 +1,41 @@
+{
+  "name": "unexpected-function-equality",
+  "version": "1.0.0",
+  "description": "Determine function equivalence by pretty-printing, then comparing the strings",
+  "main": "lib/unexpected-function-equality.js",
+  "scripts": {
+    "lint": "jshint .",
+    "test": "mocha && npm run lint",
+    "travis": "npm test && npm run coverage && (<coverage/lcov.info coveralls || true)",
+    "coverage": "NODE_ENV=development istanbul cover _mocha -- --reporter dot && echo google-chrome coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/unexpectedjs/unexpected-function-equality.git"
+  },
+  "keywords": [
+    "Unexpected",
+    "AST",
+    "esprima",
+    "function",
+    "equivalence",
+    "pretty-pring"
+  ],
+  "author": "Andreas Lind <andreas@one.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/unexpectedjs/unexpected-function-equality/issues"
+  },
+  "homepage": "https://github.com/unexpectedjs/unexpected-function-equality#readme",
+  "dependencies": {
+    "escodegen": "1.7.0",
+    "esprima": "2.6.0"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.4",
+    "istanbul": "0.3.22",
+    "jshint": "2.8.0",
+    "mocha": "2.3.3",
+    "unexpected": "git://github.com/unexpectedjs/unexpected.git#d21eae6a3e634ee65d03a687f7f85f150c471831"
+  }
+}
