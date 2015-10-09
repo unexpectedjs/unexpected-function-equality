@@ -1,6 +1,6 @@
 {
   "name": "unexpected-function-equality",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine function equivalence by pretty-printing, then comparing the strings",
   "main": "lib/unexpected-function-equality.js",
   "scripts": {
