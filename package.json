@@ -36,6 +36,9 @@
     "istanbul": "0.3.22",
     "jshint": "2.8.0",
     "mocha": "2.3.3",
-    "unexpected": "git://github.com/unexpectedjs/unexpected.git#d21eae6a3e634ee65d03a687f7f85f150c471831"
+    "unexpected": "10.0.1"
+  },
+  "peerDepeendencies": {
+    "unexpected": "^10.0.1"
   }
 }
