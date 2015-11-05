@@ -6,6 +6,8 @@ unexpected-function-equality
 [![Coverage Status](https://coveralls.io/repos/unexpectedjs/unexpected-function-equality/badge.svg)](https://coveralls.io/r/unexpectedjs/unexpected-function-equality)
 [![Dependency Status](https://david-dm.org/unexpectedjs/unexpected-function-equality.svg)](https://david-dm.org/unexpectedjs/unexpected-function-equality)
 
+![Unexpected function(al) equality :)](http://40.media.tumblr.com/a39b945c1fa8a2429baf0d962919a11a/tumblr_my6qxb7Ogz1rcb0d2o1_1280.jpg)
+
 Plugin for Unexpected 10+ that overrides the `<function> to equal <function>`
 assertion with an implementation that disregards whitespace. This is
 accomplished by parsing and pretty-printing the functions, then doing a string
