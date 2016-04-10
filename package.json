@@ -4,7 +4,7 @@
   "description": "Determine function equivalence by pretty-printing, then comparing the strings",
   "main": "lib/unexpected-function-equality.js",
   "scripts": {
-    "lint": "jshint .",
+    "lint": "eslint .",
     "test": "mocha && npm run lint",
     "travis": "npm test && npm run coverage && (<coverage/lcov.info coveralls || true)",
     "coverage": "NODE_ENV=development istanbul cover _mocha -- --reporter dot && echo google-chrome coverage/lcov-report/index.html"
@@ -33,8 +33,9 @@
   },
   "devDependencies": {
     "coveralls": "2.11.4",
+    "eslint": "2.7.0",
+    "eslint-config-onelint": "1.0.2",
     "istanbul": "0.3.22",
-    "jshint": "2.8.0",
     "mocha": "2.3.3",
     "unexpected": "10.0.1"
   },
