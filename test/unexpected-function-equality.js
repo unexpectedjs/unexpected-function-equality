@@ -14,7 +14,7 @@ it('should provide a string diff of the pretty-printed functions when they actua
             return 123;
         });
     }, 'to throw',
-        'expected function (a) { return 1234; } to equal function (a) { return 123; }\n' +
+    'expected function (a) { return 1234; } to equal function (a) { return 123; }\n' +
         '\n' +
         ' function (a) {\n' +
         '-    return 1234;\n' +
@@ -27,7 +27,7 @@ it('should consider functions with different names to be different', function ()
     expect(function () {
         expect(function a() {}, 'to equal', function b() {});
     }, 'to throw',
-        'expected function a() {} to equal function b() {}\n' +
+    'expected function a() {} to equal function b() {}\n' +
         '\n' +
         '-function a() {\n' +
         '+function b() {\n' +
