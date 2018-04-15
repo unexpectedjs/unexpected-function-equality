@@ -32,12 +32,12 @@
     "esprima": "2.6.0"
   },
   "devDependencies": {
-    "coveralls": "2.11.4",
-    "eslint": "2.13.1",
-    "eslint-config-onelint": "1.2.0",
-    "istanbul": "0.3.22",
-    "mocha": "2.3.3",
-    "unexpected": "10.0.1"
+    "coveralls": "^2.11.4",
+    "eslint": "^2.13.1",
+    "eslint-config-onelint": "^1.2.0",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
+    "unexpected": "^10.0.1"
   },
   "peerDepeendencies": {
     "unexpected": "^10.0.1"
