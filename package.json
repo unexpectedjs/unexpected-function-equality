@@ -32,7 +32,7 @@
     "esprima": "2.6.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.4",
+    "coveralls": "^3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-onelint": "^3.0.0",
     "istanbul": "^0.3.22",
