@@ -35,7 +35,7 @@
     "coveralls": "^2.11.4",
     "eslint": "^4.19.1",
     "eslint-config-onelint": "^3.0.0",
-    "istanbul": "^0.3.22",
+    "istanbul": "^0.4.5",
     "mocha": "^2.3.3",
     "unexpected": "^10.0.1"
   },
