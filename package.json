@@ -28,14 +28,14 @@
   },
   "homepage": "https://github.com/unexpectedjs/unexpected-function-equality#readme",
   "dependencies": {
-    "escodegen": "1.7.0",
+    "escodegen": "1.9.1",
     "esprima": "2.6.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.4",
+    "coveralls": "^3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-onelint": "^3.0.0",
-    "istanbul": "^0.3.22",
+    "istanbul": "^0.4.5",
     "mocha": "^5.1.0",
     "unexpected": "^10.0.1"
   },
