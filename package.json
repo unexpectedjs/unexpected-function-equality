@@ -7,8 +7,8 @@
     "lint": "eslint .",
     "test": "mocha && npm run lint",
     "travis": "npm test && npm run coverage && (<coverage/lcov.info coveralls || true)",
-    "coverage": "NODE_ENV=development istanbul cover _mocha -- --reporter dot && echo google-chrome coverage/lcov-report/index.html"
-  },
+    "coverage": "NODE_ENV=development nyc --reporter=lcov --reporter=text --all -- npm test && echo google-chrome coverage/lcov-report/index.html"
+ },
   "repository": {
     "type": "git",
     "url": "git://github.com/unexpectedjs/unexpected-function-equality.git"
@@ -43,12 +43,17 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "istanbul": "^0.4.5",
     "mocha": "^5.1.0",
+    "nyc": "^13.1.0",
     "prettier": "^1.16.0",
     "unexpected": "^11.0.0"
   },
   "peerDepeendencies": {
     "unexpected": "^10.0.1 || ^11.0.0"
+  },
+  "nyc": {
+    "include": [
+      "lib/**"
+    ]
   }
 }
