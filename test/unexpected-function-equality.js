@@ -59,9 +59,8 @@ it('should let the _name property take precedence when comparing', function() {
 });
 
 it('should disregard a name of "anonymous" from the Function constructor', function() {
-  /* jshint evil:true */
+  // eslint-disable-next-line no-new-func
   var fn = new Function();
-  /* jshint evil:false */
   expect(fn.toString(), 'to match', /^function anonymous\(/);
   expect(fn, 'to equal', function() {});
 });
