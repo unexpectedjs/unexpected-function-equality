@@ -40,6 +40,6 @@
     "unexpected": "^11.0.0"
   },
   "peerDepeendencies": {
-    "unexpected": "^10.0.1"
+    "unexpected": "^10.0.1 || ^11.0.0"
   }
 }
