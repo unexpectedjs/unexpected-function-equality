@@ -1,4 +1,3 @@
-/* global it */
 var expect = require('unexpected')
   .clone()
   .use(require('../lib/unexpected-function-equality'));
