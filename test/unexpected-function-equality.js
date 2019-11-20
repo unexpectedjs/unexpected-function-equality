@@ -40,7 +40,11 @@ it('should provide a string diff of the pretty-printed functions when they actua
 it('should consider functions with different names to be different', function() {
   expect(
     function() {
-      expect(function a() {}, 'to equal', function b() {});
+      expect(
+        function a() {},
+        'to equal',
+        function b() {}
+      );
     },
     'to throw',
     'expected function a() {} to equal function b() {}\n' +
