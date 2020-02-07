@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/unexpectedjs/unexpected-function-equality#readme",
   "dependencies": {
-    "escodegen": "1.13.0",
+    "escodegen": "1.14.1",
     "esprima": "^4.0.1"
   },
   "devDependencies": {
