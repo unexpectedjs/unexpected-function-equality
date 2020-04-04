@@ -2,27 +2,27 @@ var expect = require('unexpected')
   .clone()
   .use(require('../lib/unexpected-function-equality'));
 
-it('should find two functions identical despite whitespace differences', function() {
+it('should find two functions identical despite whitespace differences', function () {
   expect(
-    function(a) {
+    function (a) {
       return 123;
     },
     'to equal',
-    function(a) {
+    function (a) {
       return 123;
     }
   );
 });
 
-it('should provide a string diff of the pretty-printed functions when they actually differ', function() {
+it('should provide a string diff of the pretty-printed functions when they actually differ', function () {
   expect(
-    function() {
+    function () {
       expect(
-        function(a) {
+        function (a) {
           return 1234;
         },
         'to equal',
-        function(a) {
+        function (a) {
           return 123;
         }
       );
@@ -37,9 +37,9 @@ it('should provide a string diff of the pretty-printed functions when they actua
   );
 });
 
-it('should consider functions with different names to be different', function() {
+it('should consider functions with different names to be different', function () {
   expect(
-    function() {
+    function () {
       expect(
         function a() {},
         'to equal',
@@ -55,15 +55,15 @@ it('should consider functions with different names to be different', function() 
   );
 });
 
-it('should let the _name property take precedence when comparing', function() {
-  var functionWithUnderscoreName = function() {};
+it('should let the _name property take precedence when comparing', function () {
+  var functionWithUnderscoreName = function () {};
   functionWithUnderscoreName._name = 'foo';
   expect(functionWithUnderscoreName, 'to equal', function foo() {});
 });
 
-it('should disregard a name of "anonymous" from the Function constructor', function() {
+it('should disregard a name of "anonymous" from the Function constructor', function () {
   // eslint-disable-next-line no-new-func
   var fn = new Function();
   expect(fn.toString(), 'to match', /^function anonymous\(/);
-  expect(fn, 'to equal', function() {});
+  expect(fn, 'to equal', function () {});
 });

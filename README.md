@@ -1,5 +1,4 @@
-unexpected-function-equality
-============================
+# unexpected-function-equality
 
 [![NPM version](https://badge.fury.io/js/unexpected-function-equality.svg)](http://badge.fury.io/js/unexpected-function-equality)
 [![Build Status](https://travis-ci.org/unexpectedjs/unexpected-function-equality.svg?branch=master)](https://travis-ci.org/unexpectedjs/unexpected-function-equality)
@@ -16,20 +15,25 @@ comparison.
 Example:
 
 ```js
-var expect = require('unexpected').clone()
-    .use(require('unexpected-function-equality'));
+var expect = require('unexpected')
+  .clone()
+  .use(require('unexpected-function-equality'));
 
 it('should consider the two functions equal', function () {
-    expect(function (a) { return 123 - 456; }, 'to equal', function (a) {
-        return (123) - 456;
-    });
+  expect(
+    function (a) {
+      return 123 - 456;
+    },
+    'to equal',
+    function (a) {
+      return 123 - 456;
+    }
+  );
 });
 ```
 
 This is handy when testing code that generates code.
 
-
-License
--------
+## License
 
 Unexpected-function-equality is licensed under a standard 3-clause BSD license -- see the `LICENSE` file for details.

@@ -2,13 +2,13 @@ const config = {
   extends: ['standard', 'prettier', 'prettier/standard'],
   plugins: ['import', 'mocha'],
   env: {
-    mocha: true
+    mocha: true,
   },
   rules: {
     'mocha/no-exclusive-tests': 'error',
     'mocha/no-nested-tests': 'error',
-    'mocha/no-identical-title': 'error'
-  }
+    'mocha/no-identical-title': 'error',
+  },
 };
 
 if (process.stdin.isTTY) {
