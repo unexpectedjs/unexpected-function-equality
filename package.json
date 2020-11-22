@@ -47,7 +47,7 @@
     "unexpected": "^12.0.0"
   },
   "peerDepeendencies": {
-    "unexpected": "^10.0.1 || ^11.0.0"
+    "unexpected": "^10.0.1 || ^11.0.0 || ^12.0.0"
   },
   "nyc": {
     "include": [
