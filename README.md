@@ -34,6 +34,10 @@ it('should consider the two functions equal', function () {
 
 This is handy when testing code that generates code.
 
+## Releases
+
+[Changelog](https://github.com/unexpectedjs/unexpected-function-equality/blob/master/CHANGELOG.md)
+
 ## License
 
 Unexpected-function-equality is licensed under a standard 3-clause BSD license -- see the `LICENSE` file for details.
