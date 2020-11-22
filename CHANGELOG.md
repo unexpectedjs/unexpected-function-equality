@@ -1,3 +1,21 @@
+### v3.1.0 (2020-11-22)
+
+#### Pull requests
+
+- [#43](https://github.com/unexpectedjs/unexpected-function-equality/pull/43) Upgrade eslint-config-standard to version 16.0.1 ([depfu[bot]](mailto:23717796+depfu[bot]@users.noreply.github.com))
+- [#41](https://github.com/unexpectedjs/unexpected-function-equality/pull/41) Upgrade eslint-config-standard to version 15.0.1 ([depfu[bot]](mailto:23717796+depfu[bot]@users.noreply.github.com))
+- [#39](https://github.com/unexpectedjs/unexpected-function-equality/pull/39) Upgrade prettier to version 2.1.0 ([depfu[bot]](mailto:23717796+depfu[bot]@users.noreply.github.com))
+- [#38](https://github.com/unexpectedjs/unexpected-function-equality/pull/38) Upgrade eslint-plugin-mocha to version 8.0.0 ([depfu[bot]](mailto:23717796+depfu[bot]@users.noreply.github.com))
+- [#37](https://github.com/unexpectedjs/unexpected-function-equality/pull/37) Upgrade escodegen to version 2.0.0 ([depfu[bot]](mailto:23717796+depfu[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Add CHANGELOG.md + offline-github-changelog integration](https://github.com/unexpectedjs/unexpected-function-equality/commit/81affbe573f2aee493bf928060eef496d18f0e68) ([Andreas Lind](mailto:andreaslindpetersen@gmail.com))
+- [Travis: Add node.js 14, lint with 14](https://github.com/unexpectedjs/unexpected-function-equality/commit/2b110cac90abb930bcad580eec16b94bf7eac220) ([Andreas Lind](mailto:andreaslindpetersen@gmail.com))
+- [Accept unexpected ^12.0.0 as a peer dep](https://github.com/unexpectedjs/unexpected-function-equality/commit/47f338f197da0c9c09c27c1af94a3a771b684b02) ([Andreas Lind](mailto:andreaslindpetersen@gmail.com))
+- [Update unexpected to ^12.0.0](https://github.com/unexpectedjs/unexpected-function-equality/commit/813e897356ed8457252c3444f9fe4d56f5adb037) ([Andreas Lind](mailto:andreaslindpetersen@gmail.com))
+- [Remove eslint-config-onelint \(no longer used\)](https://github.com/unexpectedjs/unexpected-function-equality/commit/768bbcd8d40e3b068be01e773e89b0574f4fa93b) ([Andreas Lind](mailto:andreaslindpetersen@gmail.com))
+
 ### v3.0.0 (2020-06-28)
 
 #### Pull requests
